@@ -1,0 +1,73 @@
+body {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4D4D4D; 
+}
+
+li {
+    width: 75px;
+    float: right;
+}
+
+li a img {
+    height: 20px;
+    width: 20px;
+}
+
+#logo { 
+    position: relative;
+    height = 100px;
+    width = 531;
+    /*
+    top: 75px;
+    left: 150px;
+    */
+    top: 40px;
+    left: 25%;
+}
+
+.searchbar {
+    position: relative;
+    /*
+    top: 75px;
+    left: 125px;
+    */
+    top: 75px;
+    left: 23%;
+    height: 20px;
+    width: 550px;
+
+}
+
+#lucky {
+    margin-left: 10px;
+}
+
+.buttons {
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #D7D7D7;
+    background: #F5F5F5;
+    /*
+    top: 80px;
+    */
+    vertical-align: top;
+    top: 80px;
+    width: 110px;
+    height: 25px;
+    /*
+    left: 350px;
+    */
+    left: 35%;
+    margin: 16px 8px;
+}
