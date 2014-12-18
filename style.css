@@ -1,73 +1,128 @@
-body {
-    margin: 0 auto;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+#everything {
+    margin: 0 auto;
 }
 
 a {
     text-decoration: none;
-    color: #4D4D4D; 
+}
+
+
+
+.navbar {
+    position: absolute;
+    left: 70%;
+    width: 100%;
+}
+
+#signin {
+    background-color: #5A83FB;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    height: 35px;
+    width: 70px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
 }
 
 li {
-    width: 75px;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a img{
+    width:20px;
+    height:20px;
+    position: relative;
+    top: 5px;
+}
+
+.logo {
+    max-width: 340px;
+    max-height: 200px;
+    position: relative;
+    top: 175px;
+    left: 330px;
+}
+
+#logo {
+    max-width: 337px;
+    max-height: 139px;
+    position: relative;
+    left: 50px;
+}
+
+#top {
+
+}
+
+#bottom {
+    border: 1px solid #E3E3E3;
+    background-color: #F2F2F2;
+    color: #666666;
+    position: absolute;
+    bottom:0;
+    left:0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#bigdivider {
+    /*
+    width: 40%;
+    */
+}
+
+.left {
+    float: left;
+}
+
+.right {
     float: right;
 }
 
-li a img {
-    height: 20px;
-    width: 20px;
+.search {
+    margin: 0 auto;
+    position: relative;  
+    top: 200px; 
+    left: 300px;
+    max-width: 100%;
 }
 
-#logo { 
+#searchbar {
     position: relative;
-    height = 100px;
-    width = 531;
-    /*
-    top: 75px;
-    left: 150px;
-    */
-    top: 40px;
-    left: 25%;
+    display: block;
+    width: 540px;
+    height: 25px; 
+    
 }
 
-.searchbar {
-    position: relative;
-    /*
-    top: 75px;
-    left: 125px;
-    */
-    top: 75px;
-    left: 23%;
-    height: 20px;
-    width: 550px;
-
+#googlesearch {
+    position:relative;
 }
 
 #lucky {
-    margin-left: 10px;
+    position: relative;
 }
 
 .buttons {
+    margin-top: 10px;
+    left: 200px;
+    background-color: #F5F5F5;
     font-weight: bold;
-    display: inline-block;
-    position: relative;
     border: 1px solid #D7D7D7;
-    background: #F5F5F5;
-    /*
-    top: 80px;
-    */
-    vertical-align: top;
-    top: 80px;
-    width: 110px;
     height: 25px;
-    /*
-    left: 350px;
-    */
-    left: 35%;
-    margin: 16px 8px;
+    width: 110px;
 }
+
+
