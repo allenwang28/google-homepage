@@ -20,7 +20,7 @@ a {
     width: 100%;
 }
 
-#signin {
+.signin {
     background-color: #5A83FB;
     border: none;
     color: white;
@@ -125,4 +125,33 @@ ul li a img{
     width: 110px;
 }
 
+.topbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 75px;
+    background-color: #F1F1F1;
+    overflow: auto;
+}
 
+#smalllogo {
+    margin-top: 5px;
+    margin-left: 5px;
+    max-height: 50px;
+    max-width: 100px;
+}
+
+#smallsearch {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    top: -15px;
+    width: 500px;
+    height: 25px;
+    border: 1px solid #CBCBCB;
+}
+
+#smallsignin {
+    display: inline; 
+}
