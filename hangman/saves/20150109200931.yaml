@@ -1,0 +1,33 @@
+--- !ruby/object:Game
+word:
+- n
+- o
+- n
+- p
+- h
+- y
+- s
+- i
+- c
+- a
+- l
+correct:
+- n
+- o
+- n
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- a
+- l
+correct_guesses:
+- l
+- o
+- a
+- n
+misses: []
+num_guesses: 9
+turns: 5
